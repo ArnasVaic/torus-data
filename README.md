@@ -46,16 +46,14 @@ Besides these files describing the patterns and the transition matrix, the follo
 * `8x8/Island_Views_8.txt`, `9x9/Island_Views_9.txt` and `10x10/Island_Views_10.txt`.
 These files exemplify all islands occurring in ground patterns on the considered toruses.
 The abbreviated code for describing the islands is given in the mentioned file 
-`Naming_Islands.txt`
-
-This file displays all oscillating patterns that do not combine with stationary patterns. The phases of oscillators displayed in this file seek to illustrate a minimal set of generating islands for all patterns (as described in Appendix Section A.2), but the island compositions (announced on the first rows of pattern descriptions in the files `Torus8x8.txt`, etc) do not aim at recognising simplest islands in oscillator phases.
+`Naming_Islands.txt`. These files display all oscillating patterns that do not combine with stationary patterns. The phases of oscillators displayed in this file seek to illustrate a minimal set of generating islands for all patterns (as described in Appendix Section A.2), but the island compositions (announced on the first rows of pattern descriptions in the files `Torus8x8.txt`, etc) do not aim at recognising simplest islands in oscillator phases.
 
 * `9x9/Bunches9.txt` and `10x10/Bunches10.txt`. These files describe the bunches (pairs, triples, quartets) of ground patterns with equal eigenvalue components.
 
 * `10x10/Table_A20.txt` and `10x10/Table_A21.txt`. These files provide more complete information 
 supplementing the Appendix Tables A.20 and A.21.
 
-Several pictures (in the .jpg format) from the article are added. Additionally, here are high precision numerical expressions for the leading eigenvalues on the considered toruses:
+* Several pictures (in the .jpg format) from the article are added. Additionally, here are high precision numerical expressions for the leading eigenvalues on the considered toruses:
 
 For the 5x5 torus:
 $-14.131565573559312929238438976311552701127098597507$
