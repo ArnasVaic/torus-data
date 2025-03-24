@@ -15,7 +15,7 @@ For the toruses of size up to 8x8, the format for presenting each ground pattern
 - `d=..`, the number of live cell pairs that neighbour along an edge (diagonally)
 - `hh=..`, the number of live cell pairs that differ by the vectors $(2,0), (0,2), (-2,0), (0,-2)$
 - `dd=..`, the number of live cell pairs that differ by the diagonal vectors $(2,2), (2,-2)$, etc
-- `hd=..`, the number of live cell pairs that differ by a move of chess night
+- `hd=..`, the number of live cell pairs that differ by a move of chess knight
 
 The counting numbers `c`, `h`, `d`, `hh`, `dd`, `hd` are invariants of the pattern under the symmetries of the torus. Along with the island naming (in the 1st row), these numbers could be used for searching and recognising the ground patterns.
 
