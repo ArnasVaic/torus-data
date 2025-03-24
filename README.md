@@ -2,11 +2,11 @@
 
 This Github folder supplements the article "Conway's game 'Life' perturbed" of Raimundas Vidunas and Arnas Vaicekauskas (Vilnius University).
 
-The main files are Torus5x5.txt, Torus6x6.txt, Torus7x7.txt and 8x8/Torus8x8.txt, 9x9/Torus9x9.txt, 10x10/Torus10x10.txt which list all ground patterns on the considered torus, together with the additional information.
+The main files are **Torus5x5.txt**, **Torus6x6.txt**, **Torus7x7.txt** and **8x8/Torus8x8.txt**, **9x9/Torus9x9.txt**, **10x10/Torus10x10.txt** which list all ground patterns on the considered torus, together with the additional information.
 
 For the toruses of size up to 8x8, the format for presenting each ground pattern X in these main files is the following:
 
-* The 1st row gives the #-rank of the ground pattern, and the island composition of the pattern, following the abbreviations described in the file "Naming_Islands.txt"
+* The 1st row gives the #-rank of the ground pattern, and the island composition of the pattern, following the abbreviations described in the file **Naming_Islands.txt**
 
 * The 2nd row gives this information about the ground pattern:
 - `p=..`, the oscillation period (`p=1` for still-lives)
@@ -25,34 +25,34 @@ The counting numbers `c`, `h`, `d`, `hh`, `dd`, `hd` are invariants of the patte
 
 * The 5rd row `rates:` gives the corresponding rates of X decays to the ground patterns listed in the 4rd row. The corresponding decay rate of X to "itself" is negative.
 
-* The subsequent rates depict the pattern X in a 2-dimensional graphical form. 
+* The subsequent rows depict the pattern X in a 2-dimensional graphical form. 
 
-For the torus of size 9x9, the data is the same, except that the 3rd row is `ev.r.d.:` instead of `ev:`, meaning the relative difference $(v_{k}-v_{k+1})/v_{k+1}$ to the next ground pattern. In particular, for bunch patterns (and for the last pattern) this difference is $0$. The eigenvector for the 9x9 torus is given numerically (with high precision) in the separate file 9x9/Eigenvector9.txt
+For the torus of size 9x9, the data is the same, except that the 3rd row is `ev.r.d.:` instead of `ev:`, meaning the relative difference $(v_{k}-v_{k+1})/v_{k+1}$ to the next ground pattern. In particular, for bunch patterns (and for the last pattern) this difference is $0$. The eigenvector for the 9x9 torus is given numerically (with high precision) in the separate file **9x9/Eigenvector9.txt**
 
 For the torus of size 10x10, these attempts are made to reduce the file size:
 
 - The 4th and 5th rows (for each pattern X) are skipped. The transition matrix 
-is given in the separate file 10x10/Matrix10x10.txt
+is given in the separate file **10x10/Matrix10x10.txt**
 
 - The 3rd row is "evrd", with the same meaning as `ev.r.d.` for the 9x9 torus.
 The eigenvector for the 10x10 torus is given numerically (with high precision) 
-in the separate file 10x10/Eigenvector10.txt
+in the separate file **10x10/Eigenvector10.txt**
 
 - More compact format (with fewer spaces) is applied to the second row and 
 the graphical representation of the pattern X.
 
 Besides these files describing the patterns and the transition matrix, the following files are included:
 
-* 8x8/Island_Views_8.txt, 9x9/Island_Views_9.txt and 10x10/Island_Views_10.txt.
+* **8x8/Island_Views_8.txt**, **9x9/Island_Views_9.txt** and **10x10/Island_Views_10.txt**.
 These files exemplify all islands occurring in ground patterns on the considered toruses.
 The abbreviated code for describing the islands is given in the mentioned file 
-Naming_Islands.txt
+**Naming_Islands.txt**
 
-This file displays all oscillating patterns that do not combine with stationary patterns. The phases of oscillators displayed in this file seek to illustrate a minimal set of generating islands for all patterns (as described in Appendix Section A.2), but the island compositions (announced on the first rows of pattern descriptions in the files Torus8x8.txt, etc) do not aim at recognising simplest islands in oscillator phases.
+This file displays all oscillating patterns that do not combine with stationary patterns. The phases of oscillators displayed in this file seek to illustrate a minimal set of generating islands for all patterns (as described in Appendix Section A.2), but the island compositions (announced on the first rows of pattern descriptions in the files **Torus8x8.txt**, etc) do not aim at recognising simplest islands in oscillator phases.
 
-* 9x9/Bunches9.txt and 10x10/Bunches10.txt. These files describe the bunches (pairs, triples, quartets) of ground patterns with equal eigenvalue components.
+* **9x9/Bunches9.txt** and **10x10/Bunches10.txt**. These files describe the bunches (pairs, triples, quartets) of ground patterns with equal eigenvalue components.
 
-* 10x10/Table_A20.txt and 10x10/Table_A21.txt. These files provide more complete information 
+* **10x10/Table_A20.txt** and **10x10/Table_A21.txt**. These files provide more complete information 
 supplementing the Appendix Tables A.20 and A.21.
 
 Additionally, here are high precision numerical expressions for the leading eigenvalues on larger toruses:
