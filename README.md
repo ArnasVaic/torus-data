@@ -55,7 +55,7 @@ This file displays all oscillating patterns that do not combine with stationary 
 * `10x10/Table_A20.txt` and `10x10/Table_A21.txt`. These files provide more complete information 
 supplementing the Appendix Tables A.20 and A.21.
 
-Several pictures (in the .jpg format) from the article are added. Additionally, here are high precision numerical expressions for the leading eigenvalues on larger toruses:
+Several pictures (in the .jpg format) from the article are added. Additionally, here are high precision numerical expressions for the leading eigenvalues on the considered toruses:
 
 For the 5x5 torus:
 $-14.131565573559312929238438976311552701127098597507$
