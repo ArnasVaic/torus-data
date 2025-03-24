@@ -12,7 +12,7 @@ For the toruses of size up to 8x8, the format for presenting each ground pattern
 - `p=..`, the oscillation period (`p=1` for still-lives)
 - `c=..`, the number of live cells in the pattern (averaged over the oscillation phases)
 - `h=..`, the number of live cell pairs that neighbour along an edge (vertically or horizontally)
-- `d=..`, the number of live cell pairs that neighbour along an edge (diagonally)
+- `d=..`, the number of live cell pairs that neighbour across a vertex (diagonally)
 - `hh=..`, the number of live cell pairs that differ by the vectors $(2,0), (0,2), (-2,0), (0,-2)$
 - `dd=..`, the number of live cell pairs that differ by the diagonal vectors $(2,2), (2,-2)$, etc
 - `hd=..`, the number of live cell pairs that differ by a move of chess knight
