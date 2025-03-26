@@ -1,6 +1,4 @@
-# Conway's game 'Life' perturbed
-
-[![arXiv](https://img.shields.io/badge/arXiv-2503.19869-<COLOR>.svg)](https://arxiv.org/abs/2503.19869)
+# Conway's game 'Life' perturbed [![arXiv](https://img.shields.io/badge/arXiv-2503.19869-<COLOR>.svg)](https://arxiv.org/abs/2503.19869)
 
 This Github folder supplements the article "Conway's game 'Life' perturbed" of Raimundas Vidunas and Arnas Vaicekauskas (Vilnius University).
 
