@@ -1,5 +1,7 @@
 # Conway's game 'Life' perturbed
 
+[![arXiv](https://img.shields.io/badge/arXiv-2503.19869-<COLOR>.svg)](https://arxiv.org/abs/2503.19869)
+
 This Github folder supplements the article "Conway's game 'Life' perturbed" of Raimundas Vidunas and Arnas Vaicekauskas (Vilnius University).
 
 The main files are `Torus5x5.txt`, `Torus6x6.txt`, `Torus7x7.txt` and `8x8/Torus8x8.txt`, `9x9/Torus9x9.txt`, `10x10/Torus10x10.txt` which list all ground patterns on the considered torus, together with the additional information.
